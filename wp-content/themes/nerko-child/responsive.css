@@ -1,0 +1,134 @@
+/********************** Media CSS **************************/
+@media only screen and (max-width: 1536px) and (min-width: 1365px){
+    .hero_service .banner-padding {
+        padding: 200px 0 80px !important;
+    }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1023px){
+    .hero_service .banner-padding {
+        padding: 140px 0 80px !important;
+    }
+}
+@media only screen and (max-width: 1024px) and (min-width: 767px){
+    .hero_service .banner-padding {
+        padding: 185px 0 80px !important;
+    }
+    .hero_service .banner__content .title {
+        font-size: 64px !important;
+    }
+    .hero_service .banner__content .desc {
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 575px){
+    .hero_service .banner-padding {
+        padding: 155px 0 60px !important;
+    }
+    .hero_service .banner__content .title {
+        font-size: 52px !important;
+    }
+    .service_dev_content .about__content {
+        margin-top: 30px !important;
+    }   
+}
+@media only screen and (max-width: 576px) and (min-width: 359px){
+    .hero_service .banner-padding {
+        padding: 215px 0 40px !important;
+    }
+    .hero_service .banner__content .title {
+        font-size: 46px !important;
+    }
+    .service_dev_content .about__content {
+        margin-top: 30px !important;
+    }
+}
+@media (max-width: 360px){
+    .hero_service .banner-padding {
+        padding: 150px 0 0px !important;
+    }
+    .hero_service .banner__content .title {
+        font-size: 42px !important;
+    }
+    .service_dev_content .about__content {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 1140px){
+    .accompish_section .htslider-slider .slick-arrow.slick-next{
+        right: -10px;
+    }
+    .accompish_section .htslider-slider .slick-arrow.slick-prev{
+        left: -10px;
+    }
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+    .logo img {
+        max-width: 180px !important;
+    }
+    .sticky-menu .logo img {
+        max-width: 180px !important;
+    }    
+}
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .serve_section section .elementor-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        padding: 0 15px;
+    }
+    .serve_section section .elementor-container .elementor-column{
+        width: 100%!important
+    }
+    .footer-area .col-sm-6 {
+        width: 100% !important;
+    }
+    /*** Service Page ***/
+    /*.hero_service .banner-padding {
+        padding: 155px 0 60px !important;
+    }*/
+    .service_dev_content .about__img {
+        margin: 0 auto 0px !important;
+        margin-left: 80px !important;
+    }
+    .service_dev_content .about__content {
+        margin-top: 40px !important;
+        margin-left: 35px !important;
+        max-width: 90% !important;
+    }   
+}
+@media only screen and (max-width: 767px){
+    .accompish_section .htslider-slider .slick-arrow{
+        top: -50px;
+        transform: unset;
+    }
+    .accompish_section .htslider-slider .slick-arrow.slick-prev{
+        right: 70px;
+        left: unset;
+    }
+    .statictics_section .row .col-lg-3 { 
+        margin-bottom: 25px !important;
+    }
+    .accompish_section .elementor-heading-title{
+        line-height: 34px !important;
+    }
+    .wrk_flow_section .roadmap__card.style-two {
+        margin: 0 auto 25px !important;
+    }
+    .team_section .team__item-two-content .name{
+        line-height: 24px !important;
+    }
+    .team_section .team__item-two-content .designation{
+        line-height: 1.2 !important;
+    }
+    .faq_section .faq__wrapper{
+        padding: 18px !important;
+    }
+    /** Service Page **/
+    .service_dev_content .about__img {
+        margin: 0 auto 0px !important;
+    }
+    .service_dev_content .about__content{
+        margin-left: 0px !important;
+    }
+}
